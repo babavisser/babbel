@@ -1,0 +1,275 @@
+body {
+    margin: 0px;
+    background-color: rgb(220, 220, 220);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.col {
+    background: linear-gradient(360deg, #949494 10%, #efefef 360%);
+    margin: auto;
+    width: 15%;
+    margin-top: 50px;
+}
+
+nav {
+    text-align: center;
+    background-color: dimgray;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+
+#AlertDiv {
+    left: 50%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin: 0px 0 0 -55px;
+}
+
+h1 {
+    display: inline;
+    position: relative;
+}
+
+ul {
+    float: right;
+    padding: none;
+    margin: 0px;
+    margin-right: 5%;
+    bottom: 0px;
+}
+
+ul li a:hover {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+li {
+    display: inline-block;
+    bottom: 0px;
+    height: 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid grey;
+    bottom: 0px;
+    background-color: lightgrey;
+    padding: 3px 10px 3px 10px;
+}
+
+header {
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+#urgentie {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    font-size: 20px;
+}
+
+td,
+th {
+    border-bottom: 1px solid gainsboro;
+    text-align: center;
+    padding: 8px;
+}
+
+.prior td {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#a1 {
+    text-align: center;
+}
+
+.color {
+    text-align: center;
+    width: 40px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#nu_afhandelen_color {
+    background-color: red;
+}
+
+#urgent_color {
+    background-color: orange;
+}
+
+#afhandelen_color {
+    background-color: yellow;
+}
+
+#wachten_color {
+    background-color: grey;
+}
+
+#geen_color {
+    background-color: green;
+}
+
+#button {
+    text-align: center;
+    pointer-events: fill;
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.e {
+    grid-area: e;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "a a a"
+        "b c c"
+        "d d e";
+    grid-gap: 10px;
+    background-color: gainsboro;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.b1 {
+    grid-area: b1;
+}
+
+.b2 {
+    grid-area: b2;
+}
+
+.b3 {
+    grid-area: b3;
+}
+
+.incident {
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    padding: 20px 50px 20px 50px;
+}
+
+.grid-container_incident {
+    display: grid;
+    grid-template-areas:
+        "probleem probleem probleem extra"
+        "oplossing oplossing oplossing extra";
+    grid-gap: 50px;
+    background-color: ;
+    margin-right: 0px;
+    width: 90%;
+}
+
+.grid-container_incident > div {
+    border: 1px soli
+}
+
+.grid-container_incident > .probleem,
+.oplossing {
+    padding-right: 300px;
+}
+
+.grid-container_incident > .extra {
+    padding-left: 100px;
+}
+
+.probleem {
+    grid-area: probleem;
+}
+
+.oplossing {
+    grid-area: oplossing;
+}
+
+.extra {
+    grid-area: extra;
+    float: right;
+    text-align: center;
+}
+
+.extra > table {
+    border: none;
+}
+
+.grid-container_incident > .extra {
+    padding-right: 0px;
+}
+
+#button {
+    font-size: 14px;
+    border: 1px solid black;
+    background: grey;
+    width: 60px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+#button:hover {
+    background-color: darkgray;
+    color: lightgray;
+}
+
+#button a {
+    text-decoration: none;
+    color: black;
+    width: 20px;
+
+}
+
+option {
+    width: 20px;
+
+}
